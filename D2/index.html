@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FanXmusic</title>
+</head>
+<body style="background-color: chartreuse;">
+    <h1>Benvenuto su FanXmusic</h1>
+    <p style="font-size: large; font-family: fantasy;" >Procediamo alla registrazione:</p>
+    <form onsubmit="alert('Registrazione inviata!')" onreset="alert('campi svuotati')" >
+        <div>
+        <input type="text" name="nome" placeholder="Nome" required>
+        </div>
+        <div>
+        <input type="text" name="cognome" placeholder="Cognome" required>
+        </div>
+        <div>
+        <input type="email" name="email" placeholder="Email" required>
+        </div>
+        <div>
+        <input type="password" name="password" placeholder="Password" required>
+        </div>
+        <div>
+        <input type="date" name="data_nascita" placeholder="Data di Nascita" required>
+        </div>
+        <div>   
+        <input type="number" name="telefono" placeholder="Telefono" required>
+    </div>
+    <div><p>Il tuo genere preferito</p></div>
+    <div>
+        <input checked type="radio" name="Musica" value="Rock">Rock
+        <input type="radio" name="Musica" value="Pop">Pop
+        <input type="radio" name="Musica" value="Jazz">Jazz
+        <input type="radio" name="Musica" value="Classica">Classica
+        <input type="radio" name="Musica" value="Metal">Metal
+    </div>
+    <div>
+        <input type="radio" name="Musica" value="Rap">Rap
+        <input type="radio" name="Musica" value="Reggae">Reggae
+        <input type="radio" name="Musica" value="Techno">Techno
+        <input type="radio" name="Musica" value="Country">Country
+        <input type="radio" name="Musica" value="Blues">Blues
+    </div>
+    <div>
+        <input type="radio" name="Musica" value="Folk">Folk
+        <input type="radio" name="Musica" value="Indie">Indie
+        <input type="radio" name="Musica" value="Soul">Soul
+        <input type="radio" name="Musica" value="Reggaeton">Reggaeton
+        <input type="radio" name="Musica" value="Punk">Punk
+    </div>
+    <div>
+
+        <div><p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font: 100;">Accetta termini e condizioni</p></div>
+        <div style="width: 500px;"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis dolores explicabo accusantium architecto itaque quisquam officiis, inventore quia asperiores debitis! Voluptatibus quisquam, in soluta iste ipsam fugit natus molestiae.</p></div>
+        <div>
+         <!-- da implementare logica per poter cliccare solo un pulsante-->
+        <input type="checkbox" name="accetta" required>Accetta
+        <input type="checkbox" name="Rifiuta" required>Rifiuta
+        </div>
+    </div>
+    <div style="margin-top: 10px;">
+        <button type="submit">Invia registrazione</button>
+        <button type="reset">Reset</button>
+    </div>
+    </form>
+<div style="margin-top: 10px;">
+    <button onclick="alert('Work in progress')">Accedi</button>
+</div>
+</body>
+</html>
